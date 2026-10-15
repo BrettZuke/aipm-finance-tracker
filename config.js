@@ -17,5 +17,9 @@ window.APP_CONFIG = {
   // OPTIONAL. Only needed for the AI features (reading PDF statements + the
   // finance chat). Leave it as "" to run the tracker without AI. To enable it,
   // deploy the function in ai-backend/ and paste its URL here. See README.md.
-  AI_URL: ""
+  AI_URL: "",
+
+  // OPTIONAL. true adds a "Continue with Google" button to the sign-in screen.
+  // Turn Google on in Supabase first (see README.md, Part 3).
+  GOOGLE_SIGN_IN: false
 };
